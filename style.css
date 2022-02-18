@@ -1,0 +1,54 @@
+@font-face {
+    font-family: comic-sans;
+    src: url("Comic\ Sans\ MS.ttf");
+}
+body {
+    margin: 0;
+}
+.main-stack {
+    width: 100%;
+    text-align: center;
+}
+.game > img {
+    width: 95%;
+    max-width: 700px;
+    border-radius: 15px;
+}
+.game {
+    margin-bottom: 5px;
+}
+.top-text {
+    font-family: comic-sans;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+}
+.monitoring {
+    width: 90%;
+    max-width: 700px;
+    font: 30px comic-sans;
+    padding: 7px 0;
+    background-color: #007fff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5px;
+    /* text-decoration: underline; */
+}
+@media screen and (max-width: 499px) {
+    .top-text {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 349px) {
+    .top-text {
+        font-size: 30px;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111;
+        color: white;
+    }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@app_hacking // monitoring</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .game > .gta {
+        /* width: 47.5%; */
+        width: 29.5%;
+        border-radius: 0px;
+        margin: 0;
+        max-width: 230px;
+    }
+    .game > .gta-1 { border-radius: 0 0 0 15px; }
+    .game > .gta-3 { border-radius: 0 0 15px 0; }
+
+    .server > .gta {
+        /* width: 47.5%; */
+        width: 29.5%;
+        border-radius: 0px;
+        margin: 0;
+        max-width: 230px;
+    }
+    .server > .gta-1 { border-radius: 0 0 0 15px; }
+    .server > .gta-3 { border-radius: 0 0 15px 0; }
+
+    .ac {
+        background-color: #007fff;
+        color: #fff;
+        margin-bottom: 4px;
+        border-radius: 15px 15px 0 0;
+    }
+    .banned {
+        background-color: #dc3545;
+    }
+    .waiting {
+        background-color: #ffc107;
+        color: #333;
+    }
+    .server {
+        background: #66b2ff;
+        padding: 20px 0;
+        /* display: inline-block; */
+        margin-bottom: -5px;
+    }
+    .bann {
+        background-color: #ff6666;
+    }
+    .wait {
+        background-color: #ffde7b;
+    }
+</style>
+<body>
+    <div style="margin-top: 20px;"></div>
+    <span class="top-text">Monitoring</span>
+    <div style="margin-bottom: 15px;"></div>
+    <div class="main-stack">
+        <div class="game">
+            <div class="server">
+                <button class="monitoring ac">active</button>
+                <div style="width: 100%"></div>
+                <img src="mine-icn.jpg" class="gta gta-1">
+                <img src="terraria-icn.jpg" class="gta gta-2">
+                <img src="gta.jpeg" class="gta gta-3">
+            </div>
+        </div>
+        <!-- <div style="margin-bottom: 15px;"></div> -->
+        <div class="game">
+            <div class="server bann">
+                <button class="monitoring ac banned">banned</button>
+                <div style="width: 100%"></div>
+                <img src="machine.jpg" class="gta gta-1">
+                <img src="dead-icn.jpg" class="gta gta-2">
+                <img src="strave.jpg" class="gta gta-3">
+            </div>
+        </div>
+        <!-- <div style="margin-bottom: 15px;"></div> -->
+        <div class="game">
+            <div class="server wait">
+                <button class="monitoring ac waiting">waiting</button>
+                <div style="width: 100%"></div>
+                <img src="gd.jpg" class="gta gta-1">
+                <img src="fn1.jpg" class="gta gta-2">
+                <img src="mn.jpg" class="gta gta-3">
+            </div>
+        </div>
+        <!-- <div style="margin-bottom: 15px;"></div> -->
+        <div class="game">
+            <div class="server">
+                <button class="monitoring ac">active</button>
+                <div style="width: 100%"></div>
+                <img src="gs.jpg" class="gta gta-1">
+                <img src="tp.jpg" class="gta gta-2">
+                <img src="pb.jpg" class="gta gta-3">
+            </div>
+        </div>
+        <div style="margin-top: 20px;"></div>
+        <span class="top-text">Other links</span>
+        <div style="margin-bottom: 15px;"></div>
+        <button class="monitoring">support project</button>
+        <div style="width: 100%"></div>
+        <button class="monitoring" onclick="window.open('https\:\/\/t.me/AppStops');">t.me: @app_stops</button>
+        <div style="margin-bottom: 15px;"></div>
+    </div>
+</body>
+</html>
